@@ -1,0 +1,135 @@
+[
+    {
+        "name": "zerig/console",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Zerig/console.git",
+            "reference": "71af1eef31e5dd83b8ddc30999b0fa8db9a6e694"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Zerig/console/zipball/71af1eef31e5dd83b8ddc30999b0fa8db9a6e694",
+            "reference": "71af1eef31e5dd83b8ddc30999b0fa8db9a6e694",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6.0"
+        },
+        "time": "2020-04-25T22:17:39+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Console\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jeronym Pelikovsky",
+                "email": "pelikovsky@gmail.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "Works with data which could be helpful during creating system.",
+        "keywords": [
+            "console",
+            "log"
+        ]
+    },
+    {
+        "name": "zerig/date",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Zerig/date.git",
+            "reference": "77457472bd464e0877b54c642859cd1f0123a727"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Zerig/date/zipball/77457472bd464e0877b54c642859cd1f0123a727",
+            "reference": "77457472bd464e0877b54c642859cd1f0123a727",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6.0"
+        },
+        "time": "2020-04-17T10:05:28+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Date\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jeronym Pelikovsky",
+                "email": "pelikovsky@gmail.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "Works with DateTime class. Use czech name of Months and Week Days and Format",
+        "keywords": [
+            "czech date",
+            "czech dateTime"
+        ]
+    },
+    {
+        "name": "zerig/sql-manager",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Zerig/sql-manager.git",
+            "reference": "52a4708a94628d0109de1711d4eaf1b064c69447"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Zerig/sql-manager/zipball/52a4708a94628d0109de1711d4eaf1b064c69447",
+            "reference": "52a4708a94628d0109de1711d4eaf1b064c69447",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6.0",
+            "zerig/console": "@dev",
+            "zerig/date": "@dev"
+        },
+        "time": "2020-04-25T22:19:42+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "SqlManager\\": "src/",
+                "FCE\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jeronym Pelikovsky",
+                "email": "pelikovsky@gmail.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "This class connets to DB and work with it.",
+        "keywords": [
+            "SQL manager",
+            "database",
+            "mysql"
+        ]
+    }
+]
